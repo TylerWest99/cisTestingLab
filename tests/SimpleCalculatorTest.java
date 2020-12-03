@@ -35,4 +35,14 @@ public class SimpleCalculatorTest {
 		SimpleCalculator calc = new SimpleCalculator();
 		assertEquals(calc.fact(5), 120);
 	}
+	@Test
+	public void testCubed() {
+		SimpleCalculator calc = new SimpleCalculator();
+		assertEquals(calc.cube(5), 125);
+	}
+	@Test
+	public void testSqaure() {
+		SimpleCalculator calc = new SimpleCalculator();
+		assertEquals(calc.square(5), 25);
+	}
 }

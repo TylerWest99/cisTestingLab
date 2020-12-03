@@ -27,6 +27,12 @@ public class SimpleCalculator {
 		}
 		return total;
 	}
+	public int square(int n) {
+		return n*n;
+	}
+	public int cube(int n) {
+		return n*n*n;
+	}
 	public static final void main(String[] args) {
 		System.out.println("Hey there CIS350.");
 	}
